@@ -1,0 +1,19 @@
+{
+  "name": "express_jwt_mysql",
+  "version": "1.0.0",
+  "description": "express api with json web token user authorization and a mysql database",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node app"
+  },
+  "author": "Todd Belcher",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.0",
+    "mysql2": "^1.5.3"
+  }
+}
